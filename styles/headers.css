@@ -1,0 +1,10 @@
+#nav							{overflow:hidden;
+								 margin:0px auto;
+								 text-align:center;}
+
+#nav ul li						{display:inline-block;
+								 list-style:none;}
+				 
+#nav ul li img					{text-align:center;}
+
+				 
