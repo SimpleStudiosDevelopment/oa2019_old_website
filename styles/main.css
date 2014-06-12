@@ -1,9 +1,20 @@
 #content-wrapper							{margin:auto;
 											 overflow:hidden;}
 											 
+p											{font:'Droid Sans';
+											 font-family:'Droid Sans';}
+											 
+h1, h2, h3									{font:'Play';
+											 font-family:'Play';}
+											 
+h4, h5, h6									{font:'Merriweather Sans';
+											 font-family:'Merriweather Sans';}
+											 
 a											{font:'Droid Sans';
-											 color:#666;}
+											 font-family:'Droid Sans';
+											 color:#333;}
 											 
 a:visited									{font:'Droid Sans';
-											 color:#666;}
+											 font-family:'Droid Sans';
+											 color:#333;}
 

@@ -3,8 +3,31 @@
 								 text-align:center;}
 
 #nav ul li						{display:inline-block;
-								 list-style:none;}
+								 list-style:none;
+								 vertical-align:top;
+								 width:100px;}
 				 
-#nav ul li img					{text-align:center;}
+#nav>ul>li>a>img				{text-align:center;
+								 width:100px;
+								 height:100px;}
 
-				 
+#nav a							{text-decoration:none !important;}
+
+#nav a:hover					{text-decoration:underline !important;}
+
+#nav > ul > li > ul				{display:none;}
+
+#nav li:hover ul				{display:block;}
+
+.submenu li						{border-bottom:solid 1px #333333;
+								 font-size:12px;}
+
+.submenu img					{display:inline;
+								 vertical-align:middle;
+								 width:25px;
+								 height:25px;
+								 float:left;
+								 margin:5%}
+								 
+.submenu li:hover				{background-color:#CCC;}
+	
