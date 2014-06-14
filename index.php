@@ -8,7 +8,12 @@
     </head>
 <?php include "header.php" ?>
     <body>
-        
+        <h1>Welcome to Oxford Academy Class of 2019</h1>
+         <hr>
+    <h3>About the Website</h3>
+
+
+
     </body>
 </html>
 
