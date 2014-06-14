@@ -20,7 +20,8 @@
 #nav li:hover ul				{display:block;}
 
 .submenu li						{border-bottom:solid 1px #333333;
-								 font-size:12px;}
+								 font-size:12px;
+								 z-index:2}
 
 .submenu img					{display:inline;
 								 vertical-align:middle;

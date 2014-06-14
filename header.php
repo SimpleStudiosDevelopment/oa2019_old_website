@@ -1,7 +1,3 @@
-<link href="styles/headers.css" rel="stylesheet">
-<link href="styles/main.css" rel="stylesheet">
-<script src="config/jquery.js"></script>
-
 <div id="nav">
     <ul>
             <li>
