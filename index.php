@@ -9,10 +9,10 @@
 <?php include "header.php" ?>
     <body>
         <h1>Welcome to Oxford Academy Class of 2019</h1>
-         <hr>
-    <h3>About the Website</h3>
+    	<hr>
+    	<h3>About the Website</h3>
 
-
+		<p>This is the webpage of the Oxford Academy Class of 2019.</p>
 
     </body>
 </html>
