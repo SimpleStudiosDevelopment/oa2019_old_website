@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <?php require "config/links.php" ?>
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <meta charset="UTF-8">
@@ -12,7 +13,7 @@
     	<hr>
     	<h3>About the Website</h3>
 
-		<p>This is the webpage of the Oxford Academy Class of 2019.</p>
+		<p>This is the webpagse of the Oxford Academy Class of 2019.</p>
 
     </body>
 </html>
