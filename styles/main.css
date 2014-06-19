@@ -36,35 +36,50 @@ a:visited									{font:'Droid Sans';
 											 
 .nouline									{text-decoration:none;}
 
-.sector-head								{border-right:solid 1px #CCC;
+.section									{margin-bottom:5px;
+											 overflow:hidden;}
+
+.sector-head								{border-right:solid 3px #CCC;
 											 border-top-left-radius:10px;
-											 border-top-left-radius:10px;
-											 width:25%;
-											 margin: 0px auto;
+											 border-bottom-left-radius:10px;
+											 width:20%;
+											 margin:0px;
 											 padding:5px;
 											 display:inline-block;
 											 background-color:#333;
-											 color:#FFF;}
+											 color:#FFF;
+											 height:50px;
+											 vertical-align:middle;
+											 float:left;
+											 clear:none;}
 											 
-.sector-a									{border-right:solid 1px #CCC;
+.sector-a									{border-right:solid 3px #CCC;
 											 width:25%;
-											 margin: 0px auto;
+											 margin:0px;
 											 padding:5px;
 											 display:inline-block;
 											 background-color:#EBEBEB;
-											 color:#FFF;}
+											 height:50px;
+											 float:left;
+											 clear:none;
+											 text-align:center;
+											 vertical-align:middle;}
 
-.sector-b									{border-right:solid 1px #CCC;
+.sector-b									{border-right:solid 3px #CCC;
 											 width:25%;
-											 margin: 0px auto;
+											 margin:0px;
 											 padding:5px;
 											 display:inline-block;
 											 background-color:#A6CFFF;
-											 color:#FFF;}
+											 height:50px;
+											 float:left;
+											 clear:none;
+											 text-align:center;
+											 vertical-align:middle;}
 											 
 .sector-a:hover								{background-color:#999;}
 
 .sector-b:hover								{background-color:#5F85FF;}
 
 .sector-foot								{border-top-right-radius:10px;
-											 border-top-right-radius:10px;}
+											 border-bottom-right-radius:10px;}

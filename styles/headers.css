@@ -15,12 +15,11 @@
 
 #nav a:hover					{text-decoration:underline !important;}
 
-#nav > ul > li > ul				{display:none;}
+#nav > ul > li > ul				{display:none;
+								 z-index:999;
+								 position:absolute;}
 
 #nav li:hover ul				{display:block;}
-
-.submenu						{z-index:2;
-								 position:absolute;}
 
 .submenu li						{border-bottom:solid 1px #333333;
 								 font-size:12px;}
