@@ -2,10 +2,11 @@
 								 margin:0px auto;
 								 text-align:center;}
 
-#nav ul li						{display:inline-block;
+#nav>ul>li						{display:inline-block;
 								 list-style:none;
 								 vertical-align:top;
-								 width:100px;}
+								 width:100px;
+								 background-color:#FFF;}
 				 
 #nav>ul>li>a>img				{text-align:center;
 								 width:100px;
@@ -15,9 +16,15 @@
 
 #nav a:hover					{text-decoration:underline !important;}
 
+#nav li:hover					{background-color:#CCC;}
+
 #nav > ul > li > ul				{display:none;
 								 z-index:999;
-								 position:absolute;}
+								 list-style:none;
+								 vertical-align:top;
+								 width:100px;
+								 position:absolute;
+								 background-color:#FFF;}
 
 #nav li:hover ul				{display:block;}
 
@@ -29,7 +36,4 @@
 								 width:25px;
 								 height:25px;
 								 float:left;
-								 margin:5%}
-								 
-.submenu li:hover				{background-color:#CCC;}
-	
+								 margin:5%}	
