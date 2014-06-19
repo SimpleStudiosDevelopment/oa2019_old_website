@@ -606,5 +606,4 @@ class Google_Client
         strpos($_SERVER['SERVER_SOFTWARE'], 'Google App Engine') !== false);
   }
 }
-echo 'Client Lib';
 ?>

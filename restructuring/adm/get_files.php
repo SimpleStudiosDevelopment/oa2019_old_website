@@ -14,11 +14,12 @@ function printFile($service, $fileId) {
   }
 }
 
-function downloadFile($service, $file) {
+function downloadFile($service, $file, $client) {
   $downloadUrl = $file->getDownloadUrl();
   if ($downloadUrl) {
     $request = new Google_Http_Request($downloadUrl, 'GET', null, null);
-    $httpRequest = Google_Client::$io->authenticatedRequest($request);
+	$signRq = $client->getAuth()->sign($request);
+    $httpRequest = $client->getIO()->makeRequest($signRq);
     if ($httpRequest->getResponseHttpCode() == 200) {
       return $httpRequest->getResponseBody();
     } else {

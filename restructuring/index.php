@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-
+<link href='http://fonts.googleapis.com/css?family=Play:700|Merriweather+Sans:700|Droid+Sans' rel='stylesheet' type='text/css'>
+<link href="../styles/headers.css" rel="stylesheet">
+<link href="../styles/main.css" rel="stylesheet">
+<script src="../config/jquery.js"></script>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<?php require "../config/links.php" ?>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Group Restructuring</title>
 </head>

@@ -1,0 +1,5 @@
+new_admin:0
+new_rule:1
+bad_admin:5
+bad_rule:2
+misc:1

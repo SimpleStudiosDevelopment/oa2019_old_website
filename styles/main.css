@@ -4,10 +4,10 @@
 p											{font:'Droid Sans';
 											 font-family:'Droid Sans';}
 											 
-h2, h3									{font:'Play';
+h2, h3										{font:'Play';
 											 font-family:'Play';}
 											 
-h1, h4, h5, h6									{font:'Merriweather Sans';
+h1, h4, h5, h6								{font:'Merriweather Sans';
 											 font-family:'Merriweather Sans';}
 											 
 a											{font:'Droid Sans';
@@ -35,3 +35,36 @@ a:visited									{font:'Droid Sans';
 .boxlink-b:hover							{background-color:#5F85FF;}
 											 
 .nouline									{text-decoration:none;}
+
+.sector-head								{border-right:solid 1px #CCC;
+											 border-top-left-radius:10px;
+											 border-top-left-radius:10px;
+											 width:25%;
+											 margin: 0px auto;
+											 padding:5px;
+											 display:inline-block;
+											 background-color:#333;
+											 color:#FFF;}
+											 
+.sector-a									{border-right:solid 1px #CCC;
+											 width:25%;
+											 margin: 0px auto;
+											 padding:5px;
+											 display:inline-block;
+											 background-color:#EBEBEB;
+											 color:#FFF;}
+
+.sector-b									{border-right:solid 1px #CCC;
+											 width:25%;
+											 margin: 0px auto;
+											 padding:5px;
+											 display:inline-block;
+											 background-color:#A6CFFF;
+											 color:#FFF;}
+											 
+.sector-a:hover								{background-color:#999;}
+
+.sector-b:hover								{background-color:#5F85FF;}
+
+.sector-foot								{border-top-right-radius:10px;
+											 border-top-right-radius:10px;}

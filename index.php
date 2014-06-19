@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<?php require "config/links.php" ?>
-
+<link href='http://fonts.googleapis.com/css?family=Play:700|Merriweather+Sans:700|Droid+Sans' rel='stylesheet' type='text/css'>
+<link href="styles/headers.css" rel="stylesheet">
+<link href="styles/main.css" rel="stylesheet">
+<script src="config/jquery.js"></script>
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <meta charset="UTF-8">
